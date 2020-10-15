@@ -1,0 +1,42 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1554340319446": {
+        "jcr:primaryType": "nt:unstructured",
+        "showModificationDate": "false",
+        "jcr:title": "WKND List - Article",
+        "linkItems": "false",
+        "jcr:lastModifiedBy": "admin",
+        "disableChildren": "false",
+        "disableSearch": "false",
+        "disableStatic": "false",
+        "dateFormat": "EEEE, d MMM y",
+        "showDescription": "false",
+        "jcr:lastModified": "Thu Oct 17 2019 10:59:35 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "disableTags": "false",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-list--upnext",
+                        "cq:styleId": "1554340350631",
+                        "cq:styleLabel": "Up Next"
+                    }
+                }
+            }
+        }
+    }
+}

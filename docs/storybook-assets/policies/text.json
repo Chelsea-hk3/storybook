@@ -1,0 +1,495 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1554340265233": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Text - Article",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Apr 18 2019 16:35:35 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "rtePlugins": {
+            "jcr:primaryType": "nt:unstructured",
+            "paraformat": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*",
+                "formats": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "override": "true",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Paragraph",
+                        "tag": "p"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Quote",
+                        "tag": "blockquote"
+                    }
+                }
+            },
+            "misctools": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-",
+                "specialCharsConfig": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "chars": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "override": "true",
+                        "item0": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&copy;",
+                            "name": "copyright"
+                        },
+                        "item1": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&euro;",
+                            "name": "euro"
+                        },
+                        "item2": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&reg;",
+                            "name": "registered"
+                        },
+                        "item3": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&trade;",
+                            "name": "trademark"
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "findreplace": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "undo": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "spellcheck": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "image": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "table": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "lists": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "justify": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "format": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "bold,italic,underline"
+            },
+            "links": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "modifylink,unlink"
+            },
+            "subsuperscript": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            }
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--quote",
+                        "cq:styleId": "1554340301154",
+                        "cq:styleLabel": "Quote Block"
+                    }
+                }
+            }
+        }
+    },
+    "policy_292492673658670": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Text - Experience Fragments",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Wed Sep 18 2019 13:51:44 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured"
+        },
+        "rtePlugins": {
+            "jcr:primaryType": "nt:unstructured",
+            "paraformat": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-",
+                "formats": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "override": "true",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Paragraph",
+                        "tag": "p"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 1",
+                        "tag": "h1"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 2",
+                        "tag": "h2"
+                    },
+                    "item3": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 3",
+                        "tag": "h3"
+                    },
+                    "item4": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 4",
+                        "tag": "h4"
+                    },
+                    "item5": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 5",
+                        "tag": "h5"
+                    },
+                    "item6": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 6",
+                        "tag": "h6"
+                    },
+                    "item7": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Quote",
+                        "tag": "blockquote"
+                    },
+                    "item8": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Horizontal Rule (visual line break)",
+                        "tag": "hr"
+                    },
+                    "item9": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Preformatted",
+                        "tag": "pre"
+                    }
+                }
+            },
+            "misctools": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-",
+                "specialCharsConfig": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "chars": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "override": "true",
+                        "item0": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&copy;",
+                            "name": "copyright"
+                        },
+                        "item1": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&euro;",
+                            "name": "euro"
+                        },
+                        "item2": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&reg;",
+                            "name": "registered"
+                        },
+                        "item3": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&trade;",
+                            "name": "trademark"
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "findreplace": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "undo": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "spellcheck": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "image": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "table": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "lists": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "justify": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            },
+            "format": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "bold,italic"
+            },
+            "links": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "modifylink,unlink"
+            },
+            "subsuperscript": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "-"
+            }
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--copyright",
+                        "cq:styleId": "1568839883536",
+                        "cq:styleLabel": "Copyright"
+                    }
+                }
+            }
+        }
+    },
+    "policy_1570746487640": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Text - Kitchen Sink",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Oct 17 2019 10:59:23 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "rtePlugins": {
+            "jcr:primaryType": "nt:unstructured",
+            "paraformat": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*",
+                "formats": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "override": "true",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Paragraph",
+                        "tag": "p"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 1",
+                        "tag": "h1"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 2",
+                        "tag": "h2"
+                    },
+                    "item3": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 3",
+                        "tag": "h3"
+                    },
+                    "item4": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 4",
+                        "tag": "h4"
+                    },
+                    "item5": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 5",
+                        "tag": "h5"
+                    },
+                    "item6": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Heading 6",
+                        "tag": "h6"
+                    },
+                    "item7": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Quote",
+                        "tag": "blockquote"
+                    },
+                    "item8": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Horizontal Rule (visual line break)",
+                        "tag": "hr"
+                    },
+                    "item9": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "description": "Preformatted",
+                        "tag": "pre"
+                    }
+                }
+            },
+            "misctools": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "sourceedit,specialchars",
+                "specialCharsConfig": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "chars": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "override": "true",
+                        "item0": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&copy;",
+                            "name": "copyright"
+                        },
+                        "item1": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&euro;",
+                            "name": "euro"
+                        },
+                        "item2": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&reg;",
+                            "name": "registered"
+                        },
+                        "item3": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "entity": "&trade;",
+                            "name": "trademark"
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "paste-plaintext,paste-wordhtml"
+            },
+            "format": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "bold,italic,underline"
+            },
+            "lists": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "links": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "modifylink,unlink"
+            },
+            "subsuperscript": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "table": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "justify": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "findreplace": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "undo": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "spellcheck": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            },
+            "image": {
+                "jcr:primaryType": "nt:unstructured",
+                "features": "*"
+            }
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Styles",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleId": "1571073973204",
+                        "cq:styleLabel": "Default"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--quote",
+                        "cq:styleId": "1570746601923",
+                        "cq:styleLabel": "Quote Block"
+                    }
+                }
+            },
+            "item1": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Paragraph Size",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--font-xsmall",
+                        "cq:styleId": "1571074021746",
+                        "cq:styleLabel": "Extra-Small"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--font-small",
+                        "cq:styleId": "1571074070335",
+                        "cq:styleLabel": "Small"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--font-default",
+                        "cq:styleId": "1571085340516",
+                        "cq:styleLabel": "Default"
+                    },
+                    "item3": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-text--font-large",
+                        "cq:styleId": "1571085385905",
+                        "cq:styleLabel": "Large"
+                    }
+                }
+            }
+        }
+    }
+}

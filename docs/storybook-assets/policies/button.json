@@ -1,0 +1,59 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1568591661081": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Button",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Fri Oct 25 2019 18:01:22 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Styles",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleId": "1570236118213",
+                        "cq:styleLabel": "Default"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-button--primary",
+                        "cq:styleId": "1570236090914",
+                        "cq:styleLabel": "Primary"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-button--secondary",
+                        "cq:styleId": "1570758781253",
+                        "cq:styleLabel": "Secondary"
+                    }
+                }
+            },
+            "item1": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Variation",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-button--icononly",
+                        "cq:styleId": "1568839776757",
+                        "cq:styleLabel": "Icon Only"
+                    }
+                }
+            }
+        }
+    }
+}

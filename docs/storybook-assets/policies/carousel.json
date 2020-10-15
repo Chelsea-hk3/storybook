@@ -1,0 +1,47 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1555540352044": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Carousel",
+        "jcr:lastModifiedBy": "admin",
+        "components": [
+            "/apps/wknd/components/content/image",
+            "/apps/wknd/components/content/teaser"
+        ],
+        "autopauseDisabled": "false",
+        "delay": "5000",
+        "jcr:lastModified": "Fri Oct 25 2019 13:37:48 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "autoplay": "false",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-carousel--hero",
+                        "cq:styleId": "1555545421827",
+                        "cq:styleLabel": "Hero"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-carousel--mini",
+                        "cq:styleId": "1570236158571",
+                        "cq:styleLabel": "Mini"
+                    }
+                }
+            }
+        }
+    }
+}

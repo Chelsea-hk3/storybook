@@ -1,0 +1,83 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_349626543823562": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Title - Global Styles",
+        "jcr:lastModifiedBy": "admin",
+        "allowedTypes": [
+            "h1",
+            "h2",
+            "h3",
+            "h4",
+            "h5",
+            "h6"
+        ],
+        "type": "h1",
+        "jcr:lastModified": "Fri Oct 25 2019 13:44:39 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "linkDisabled": "false",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Styles",
+                "cq:styleGroupMultiple": "true",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--underline",
+                        "cq:styleId": "1568996484405",
+                        "cq:styleLabel": "Underline"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--right",
+                        "cq:styleId": "1568996465682",
+                        "cq:styleLabel": "Align Right"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--minispacing",
+                        "cq:styleId": "1570766394721",
+                        "cq:styleLabel": "Mini Spacing"
+                    }
+                }
+            },
+            "item1": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styleGroupLabel": "Colors",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--black",
+                        "cq:styleId": "1568996420379",
+                        "cq:styleLabel": "Black"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--white",
+                        "cq:styleId": "1568996427017",
+                        "cq:styleLabel": "White"
+                    },
+                    "item2": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-title--gray",
+                        "cq:styleId": "1569448732502",
+                        "cq:styleLabel": "Gray"
+                    }
+                }
+            }
+        }
+    }
+}

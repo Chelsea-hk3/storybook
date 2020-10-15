@@ -1,0 +1,33 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1571166588834": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Content Fragment",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Oct 17 2019 11:01:11 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleId": "1571166691078",
+                        "cq:styleLabel": "Default"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-contentfragment--elements",
+                        "cq:styleId": "1571166694176",
+                        "cq:styleLabel": "Elements"
+                    }
+                }
+            }
+        }
+    }
+}

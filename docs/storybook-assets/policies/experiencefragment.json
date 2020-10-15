@@ -1,0 +1,71 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1568592468447": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Experience Fragment - Site",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Oct 03 2019 15:00:04 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-experiencefragment--header",
+                        "cq:styleId": "1568592491109",
+                        "cq:styleLabel": "Header"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-experiencefragment--footer",
+                        "cq:styleId": "1568592503946",
+                        "cq:styleLabel": "Footer"
+                    }
+                }
+            }
+        }
+    },
+    "policy_34642779885901": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Experience Fragment - Content",
+        "jcr:lastModifiedBy": "admin",
+        "jcr:lastModified": "Thu Oct 17 2019 17:57:06 GMT-0700",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-experience-fragment--contributor",
+                        "cq:styleId": "1571360196802",
+                        "cq:styleLabel": "Contributor"
+                    }
+                }
+            }
+        }
+    }
+}

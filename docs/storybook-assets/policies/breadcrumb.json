@@ -1,0 +1,42 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "policy_1554341419430": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "WKND Breadcrumb",
+        "startLevel": "4",
+        "jcr:lastModifiedBy": "admin",
+        "showHidden": "false",
+        "jcr:lastModified": "Tue Oct 15 2019 12:06:19 GMT-0700",
+        "hideCurrent": "false",
+        "sling:resourceType": "wcm/core/components/policy/policy",
+        "jcr:content": {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:mixinTypes": [
+                "cq:ReplicationStatus"
+            ],
+            "cq:lastReplicationAction": "Activate",
+            "cq:lastReplicatedBy": "admin",
+            "cq:lastReplicated": "Tue Oct 22 2019 13:34:50 GMT-0700"
+        },
+        "cq:styleGroups": {
+            "jcr:primaryType": "nt:unstructured",
+            "item0": {
+                "jcr:primaryType": "nt:unstructured",
+                "cq:styles": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "item0": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleId": "1570236590660",
+                        "cq:styleLabel": "Default"
+                    },
+                    "item1": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "cq:styleClasses": "cmp-breadcrumb--fixed",
+                        "cq:styleId": "1570236596118",
+                        "cq:styleLabel": "Fixed Width"
+                    }
+                }
+            }
+        }
+    }
+}
